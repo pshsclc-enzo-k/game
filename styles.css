@@ -1,0 +1,113 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/bf/39/87/bf39872e2e20f94b0115c9b5398fed38.jpg);
+  background-color: darkcyan;
+  height: 960px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.game {
+  width: 600px;
+  height: 200px;
+  margin: auto;
+}
+
+#fish {
+  width: 50px;
+  height: 50px;
+  background-image: url("http://piq.codeus.net/static/media/userpics/piq_164380_400x400.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 150px;
+}
+
+.jump {
+  animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+
+  30% {
+    top: 130px;
+  }
+
+  50% {
+    top: 80px;
+  }
+
+  80% {
+    top: 130px;
+  }
+
+  100% {
+    top: 150px;
+  }
+}
+
+#coral {
+  width: 20px;
+  height: 40px;
+  position: relative;
+  top: 110px;
+  left: 580px;
+
+  background-image: url("img/coral.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: block 0.8s infinite linear;
+}
+
+@keyframes block {
+  0% {
+    left: 600px;
+  }
+
+  100% {
+    left: -10px;
+  }
+}
+
+p {
+  font-family: 'Anybody', cursive;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-family: 'BIZ UDGothic', sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+  text-align: center;
+  color: gold;
+}
+
+#gameName {
+  font-size: 50px;
+  color: gold;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+}
+
+footer a, footer a:hover {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+footer {
+  display: inline-block;
+  vertical-align: top;
+}
+
